@@ -383,37 +383,37 @@
                     android:layout_height="match_parent">
 
                     <RadioButton
-                        android:id="@+id/radioButton6"
+                        android:id="@+id/rbEstrato1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="1" />
 
                     <RadioButton
-                        android:id="@+id/radioButton5"
+                        android:id="@+id/rbEstrato2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="2" />
 
                     <RadioButton
-                        android:id="@+id/radioButton4"
+                        android:id="@+id/rbEstrato3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="3" />
 
                     <RadioButton
-                        android:id="@+id/radioButton3"
+                        android:id="@+id/rbEstrato4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="4" />
 
                     <RadioButton
-                        android:id="@+id/radioButton2"
+                        android:id="@+id/rbEstrato5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="5" />
 
                     <RadioButton
-                        android:id="@+id/radioButton"
+                        android:id="@+id/rbEstrato6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="6" />

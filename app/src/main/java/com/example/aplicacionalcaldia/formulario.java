@@ -15,7 +15,7 @@ import android.widget.TextView;
 public class formulario extends AppCompatActivity implements SeekBar.OnSeekBarChangeListener {
 
     EditText etNombres, etApellidos, etNumDoc, etEdad, etEmail, etTelefonoFijo, etCelular, etComuna, etMunicipio, etDepartamento, etFechaDeNaciemiento, etnumPersonas, etNumeroDeHijos, etCajaDeCompensacion, etOcupacion, etEmpleoActual;
-    RadioButton rbHombre, rbMujer, rbOtro, rbCiudadania, rbPermisoespecialdepermanencia, rbInternetSi, rbInternetNo, rbSinEmpleoSi, rbSinEmpleoNo, rbBuscandoEmpleoNo, rbBuscandoEmpleoSi, rbCensatiasPensionesSi, rbCensatiasPensionesNo, rbSubsidioAlcaldiaSi, rbSubsidioAlcaldiaNo;
+    RadioButton rbHombre, rbMujer, rbOtro, rbCiudadania, rbPermisoespecialdepermanencia, rbInternetSi, rbInternetNo, rbSinEmpleoSi, rbSinEmpleoNo, rbBuscandoEmpleoNo, rbBuscandoEmpleoSi, rbCensatiasPensionesSi, rbCensatiasPensionesNo, rbSubsidioAlcaldiaSi, rbSubsidioAlcaldiaNo, rbEstrato1, rbEstrato2, rbEstrato3, rbEstrato4, rbEstrato5, rbEstrato6;
     CheckBox cbTerminosCondiciones, cbPoliticaPrivacidad;
     Button btnProcesarInformacion;
 
@@ -61,6 +61,12 @@ public class formulario extends AppCompatActivity implements SeekBar.OnSeekBarCh
         cbTerminosCondiciones=(CheckBox)findViewById(R.id.cbTerminosCondiciones);
         cbPoliticaPrivacidad=(CheckBox)findViewById(R.id.cbPoliticaPrivacidad);
         btnProcesarInformacion=(Button)findViewById(R.id.btnProcesarInformacion);
+        rbEstrato1=(RadioButton)findViewById(R.id.rbEstrato1);
+        rbEstrato2=(RadioButton)findViewById(R.id.rbEstrato2);
+        rbEstrato3=(RadioButton)findViewById(R.id.rbEstrato3);
+        rbEstrato4=(RadioButton)findViewById(R.id.rbEstrato4);
+        rbEstrato5=(RadioButton)findViewById(R.id.rbEstrato5);
+        rbEstrato6=(RadioButton)findViewById(R.id.rbEstrato6);
 
 
     }
