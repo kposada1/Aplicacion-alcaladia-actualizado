@@ -83,11 +83,11 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="112dp"
-        android:layout_height="46dp"
+        android:layout_width="98dp"
+        android:layout_height="73dp"
         android:layout_marginTop="36dp"
+        android:background="@drawable/ic_baseline_forward_24"
         android:onClick="Form"
-        android:text="Aquí"
         android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"

@@ -72,6 +72,7 @@
         android:layout_width="131dp"
         android:layout_height="46dp"
         android:layout_marginTop="48dp"
+        android:background="@drawable/button_corner"
         android:onClick="Presentacion"
         android:text="Participar"
         app:layout_constraintEnd_toEndOf="parent"
