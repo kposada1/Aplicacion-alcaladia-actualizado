@@ -4,6 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp"
     android:background="@drawable/paisaje"
     tools:context=".graciasPorParticipar">
 
@@ -131,11 +138,14 @@
 
     <Button
         android:id="@+id/btnPrincipio"
-        android:layout_width="114dp"
-        android:layout_height="57dp"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="50dp"
+        android:layout_height="38dp"
         android:layout_marginTop="4dp"
+        android:background="@drawable/ic_baseline_home_24"
         android:onClick="Principio"
-        android:text="Volver al principio"
+        android:textColor="#000000"
+        android:textColorHint="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

@@ -45,7 +45,7 @@ public class presentacion extends YouTubeBaseActivity implements YouTubePlayer.O
         startActivity(volver);
     }
     public void Form (View view){
-        Intent siguiente = new Intent(this, graciasPorParticipar.class);
+        Intent siguiente = new Intent(this, formulario.class);
         startActivity(siguiente);
     }
 
