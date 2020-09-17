@@ -248,7 +248,7 @@
                         android:inputType="number" />
 
                     <EditText
-                        android:id="@+id/etMunicipio"
+                        android:id="@+id/etCiudad"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -364,11 +364,11 @@
                 </RadioGroup>
 
                 <EditText
-                    android:id="@+id/etCajaDeCompensacion"
+                    android:id="@+id/etDireccion"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:hint="¿Afiliado a una caja de compensacion? ¿Cual?"
+                    android:hint="Direccion"
                     android:inputType="textPersonName" />
 
                 <TextView

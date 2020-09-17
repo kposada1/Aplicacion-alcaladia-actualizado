@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">H.O.P.E</string>
-    <string name="explicacion">A continuación se te presentará un formulario que debes llenar para optar por el beneficio de la alcadía de Medellín para dar la solución a la problemática del desempleo.</string>
+    <string name="explicacion">A continuación se te presentará un formulario que debes llenar para optar por el beneficio de la alcadía de Medellín para dar solución a la problemática del desempleo.</string>
     <string name="ingresoform">Ingresar al formulario.</string>
     <string name="GraciasParticipar">¡Gracias por participar!</string>
     <string name="DatosAnilizando">Tus datos estan siendo analizados, al terminar el proceso se te notificará vía telefónica que fuiste seleccionado para obtener el beneficio, en caso contrario se te notificará vía correo gracias por participar.</string>
